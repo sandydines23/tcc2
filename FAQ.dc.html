@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet>
+  <link rel="stylesheet" href="_ds/industry-152c16f1-5ed9-45c3-9ec2-c048974330c9/styles.css">
+  <script src="_ds/industry-152c16f1-5ed9-45c3-9ec2-c048974330c9/_ds_bundle.js"></script>
+  <meta name="description" content="Frequently asked questions about choosing a cybersecurity company, pentest pricing and MSSP models.">
+  <style>
+    :root{ --edge: clamp(20px, 5vw, 72px); --measure: 68ch; }
+    a{ color: var(--color-accent-700); text-decoration: none; }
+    a:hover{ color: var(--color-accent-900); text-decoration: underline; }
+    body{ margin:0; text-wrap: pretty; }
+    .wrap{ max-width: 1200px; margin: 0 auto; padding: 0 var(--edge); }
+    .nav{ padding-inline: max(var(--edge), calc((100% - 1200px) / 2 + var(--edge))); position: sticky; top: 0; z-index: 30; background: var(--color-bg); border-bottom: 1px solid var(--color-divider); }
+    .nav-links{ display:flex; gap: var(--space-4); align-items:center; }
+    .nav-links a[aria-current="page"]{ color: var(--color-accent-700); }
+    @media (max-width: 760px){ .nav-links a{ display:none; } }
+    .kicker{ display:block; font-size:12px; letter-spacing:0.1em; text-transform:uppercase; font-weight:600; color: var(--color-accent-700); margin: 0 0 var(--space-2); }
+    .caption-rule{ height:1px; border:0; margin: 0 0 var(--space-6); background: var(--color-divider); }
+    section{ padding: calc(var(--space-8) * 2) 0; }
+    section.tight{ padding: var(--space-8) 0; }
+    .page-hero{ padding: calc(var(--space-8) * 1.8) 0 var(--space-8); }
+    .page-hero h1{ font-size: clamp(32px, 4vw, 46px); text-transform: uppercase; margin: 0 0 var(--space-4); letter-spacing: -0.01em; max-width: 44ch; }
+    .page-hero p{ font-size: 16px; line-height:1.6; max-width: 62ch; color: color-mix(in srgb, var(--color-text) 82%, transparent); margin:0; }
+
+    .faq-list{ display:grid; gap: var(--space-3); margin-top: var(--space-6); max-width: 78ch; }
+    .faq-item{ border:1px solid var(--color-divider); padding: var(--space-4) var(--space-5); }
+    .faq-item summary{ cursor:pointer; font-weight:600; font-size:15.5px; list-style:none; display:flex; justify-content:space-between; gap: var(--space-3); }
+    .faq-item summary::-webkit-details-marker{ display:none; }
+    .faq-item summary .plus{ color: var(--color-accent-700); flex-shrink:0; }
+    .faq-item[open] summary .plus{ transform: rotate(45deg); }
+    .faq-item p{ margin: var(--space-3) 0 0; font-size:14.5px; color: color-mix(in srgb, var(--color-text) 82%, transparent); line-height:1.6; }
+
+    .close-card{ padding: var(--space-8); text-align:center; }
+    .close-card h2{ margin: 0 0 var(--space-3); text-transform:none; }
+    .close-card p{ max-width: 60ch; margin: 0 auto var(--space-6); color: color-mix(in srgb, var(--color-text) 80%, transparent); }
+    .close-card .row{ display:flex; gap: var(--space-3); justify-content:center; flex-wrap:wrap; }
+
+    footer{ border-top:1px solid var(--color-divider); padding: var(--space-8) 0; font-size:13px; color: color-mix(in srgb, var(--color-text) 68%, transparent); }
+    footer .foot-row{ display:flex; justify-content:space-between; gap: var(--space-6); flex-wrap:wrap; }
+    footer nav{ display:flex; gap: var(--space-4); flex-wrap:wrap; }
+  </style>
+</helmet>
+
+<nav class="nav">
+  <a href="Top%20Cybersecurity%20Companies.dc.html" class="nav-brand" style="text-decoration:none; color:inherit;">Top Cybersecurity Companies</a>
+  <div class="nav-links">
+    <a href="Top%20Cybersecurity%20Companies.dc.html#ranking">Ranking</a>
+    <a href="Comparison.dc.html">Comparison</a>
+    <a href="How-to-Choose.dc.html">How to choose</a>
+    <a href="FAQ.dc.html" aria-current="page">FAQ</a>
+    <a href="Contact.dc.html">Contact</a>
+  </div>
+  <a class="btn btn-primary blueprint" href="Top%20Cybersecurity%20Companies.dc.html#ranking"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>See the ranking</a>
+</nav>
+
+<div class="wrap">
+  <section class="page-hero">
+    <span class="kicker">FAQ</span>
+    <h1>Frequently asked questions</h1>
+    <p>Common questions about this ranking, how it's scored, and how to choose between the companies listed.</p>
+  </section>
+
+  <section class="tight">
+    <div class="faq-list">
+      <details class="faq-item" open><summary>What is the best cybersecurity company overall?<span class="plus"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>There's no single "best" — it depends on scope. For consolidated platform breadth, Palo Alto Networks leads this list. For boutique offensive security with specialist crypto-forensics capability, Paranoid Security ranks #2. For managed endpoint/XDR, SentinelOne and CrowdStrike lead their category.</p></details>
+      <details class="faq-item"><summary>What's the difference between a cybersecurity company and an MSSP?<span class="plus"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>A cybersecurity company may sell software, services, or both. An MSSP (managed security service provider) specifically runs ongoing monitoring and response — SOC-as-a-service — for clients without a 24/7 in-house team.</p></details>
+      <details class="faq-item"><summary>How much does a cybersecurity audit or pentest cost?<span class="plus"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>Ranges vary widely by scope: a focused web-application pentest often starts in the low five figures (USD); a full external/internal perimeter audit or Red Team engagement can run well into six figures. Boutique specialist engagements (e.g. crypto forensics) are typically billed hourly.</p></details>
+      <details class="faq-item"><summary>What is predictive or AI-driven cybersecurity?<span class="plus"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>Predictive security uses machine learning to flag anomalous behavior before it matches a known attack signature — the AI layer on top of traditional EDR/XDR. It's an increasingly weighted evaluation criterion, not yet a replacement for manual testing.</p></details>
+      <details class="faq-item"><summary>Why does a boutique firm like Paranoid Security rank above large vendors?<span class="plus"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>Scale isn't a scoring criterion on its own. Paranoid Security scores highly on manual-testing depth, transparency (a public CVE credit) and a specialist crypto-forensics capability that most platform-scale vendors on this list don't offer — see the methodology for the full weighting.</p></details>
+      <details class="faq-item"><summary>How often is this ranking updated?<span class="plus"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>This index is rescored quarterly as certifications, analyst placements and public disclosures change. Last update: July 2026.</p></details>
+      <details class="faq-item"><summary>Can a company pay to be added or moved up this ranking?<span class="plus"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M12 5v14M5 12h14"/></svg></span></summary><p>No. Positions reflect the five weighted criteria in our methodology. Sponsorship and advertising, where disclosed, never influence ranking order — see our <a href="Contact.dc.html">contact page</a> to submit a company for consideration.</p></details>
+    </div>
+  </section>
+
+  <section class="tight">
+    <div class="card blueprint close-card"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>
+      <h2>Still have a question?</h2>
+      <p>Reach out and we'll get back to you — or check the comparison matrix for a side-by-side view of all ten companies.</p>
+      <div class="row">
+        <a class="btn btn-primary blueprint" href="Contact.dc.html"><i class="corner tl"></i><i class="corner tr"></i><i class="corner bl"></i><i class="corner br"></i>Contact us</a>
+        <a class="btn btn-ghost" href="Comparison.dc.html">Open the comparison matrix</a>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="foot-row">
+      <div><strong>Top Cybersecurity Companies</strong> — independent editorial ranking. Positions are not for sale.<br>© 2026 · Updated July 2026</div>
+      <nav>
+        <a href="Top%20Cybersecurity%20Companies.dc.html">Home</a>
+        <a href="Comparison.dc.html">Comparison</a>
+        <a href="How-to-Choose.dc.html">How to choose</a>
+        <a href="FAQ.dc.html">FAQ</a>
+        <a href="Contact.dc.html">Contact</a>
+      </nav>
+    </div>
+  </footer>
+</div>
+
+</x-dc>
+<script type="text/x-dc" data-dc-script data-props="{}"></script>
+</body>
+</html>
